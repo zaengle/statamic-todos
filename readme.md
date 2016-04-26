@@ -9,6 +9,9 @@ Todo is an exploration into addon development for Statamic v2, which is now buil
 
 You may change the word that Todo uses to something else, such as "Task" or "Job" by visiting the addon configuration in the control panel, or by updating the `todo.yaml` file located in `site/settings/addons` directory.
 
+##Managing Todos
+Once you have installed the addon you will see an additional navigation item in the sidebar of the control panel. Following this link will take you to the location where you add/complete/delete todos.
+
 ##Dashboard Widget
 
 Todo offers a widget that will display a specific number of open Todos on the control panel dashboard. Set it up by adding the following to the `Settings -> Control Panel -> Widgets` section:
