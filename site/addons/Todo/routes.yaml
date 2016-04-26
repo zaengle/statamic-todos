@@ -1,0 +1,20 @@
+routes:
+  /:
+    as: todo
+    uses: index
+
+  getAll:
+    as: todo.getAll
+    uses: getTodos
+
+  put@complete:
+    as: todo.complete
+    uses: markCompleted
+
+  post@add:
+    uses: postAdd
+    as: todo.postAdd
+
+  delete@delete:
+    uses: deleteTodo
+    as: todo.delete
