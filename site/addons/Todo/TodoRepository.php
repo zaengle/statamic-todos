@@ -46,19 +46,20 @@ class TodoRepository extends Addon
      * @param int $limit
      * @return mixed
      */
-    public function getOpenTodos($limit=100)
+    public function getOpenTodos($limit = 100)
     {
         return collect(Folder::disk('storage')->getFiles('addons/Todo'))
             ->reverse()
-            ->reject(function($file) {
+            ->reject(function ($file) {
                 $todo = Storage::getYAML($file);
+
                 return $todo['completed'];
             })->take($limit)
-            ->map(function($file){
+            ->map(function ($file) {
                 return $this->prepTodo($file);
             });
     }
-
+    
     /**
      * Save a single Todo
      * @param $title

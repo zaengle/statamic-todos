@@ -12,9 +12,9 @@ routes:
     uses: markCompleted
 
   post@add:
-    uses: postAdd
     as: todo.postAdd
+    uses: postAdd
 
   delete@delete:
-    uses: deleteTodo
     as: todo.delete
+    uses: deleteTodo
