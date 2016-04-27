@@ -1,5 +1,5 @@
 #Todo - A Statamic Addon*
-Todo is an exploration into addon development for Statamic v2, which is now built on [Laravel](http://laravel.com). To read the companion blog article, which outlines the process of Todo's creation, please jump over to the [Zaengle blog](http://zaengle.com/blog/)!
+Todo is an exploration into addon development for Statamic v2, which is now built on [Laravel](http://laravel.com). To read the companion blog article, which outlines the process of Todo's creation, please jump over to the [Zaengle blog](http://bit.ly/1SBTZlM)!
 
 ![Demo](doc-images/demo.gif)
 
@@ -36,4 +36,4 @@ If you would like to display open Todos in your templates, you may do so with th
 ```
 
 ###Notes
-**This addon is intended as an exploration into Statamic addon development, and is not a production-ready addon. We may get get there someday, but it's not ready yet :-)*
+**This addon is intended as an exploration into Statamic addon development, and is not a production-ready. We may get get there someday, but it's not ready yet :-)*
